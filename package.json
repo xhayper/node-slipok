@@ -1,0 +1,38 @@
+{
+  "name": "slipok",
+  "version": "1.0.0",
+  "description": "A wrapper around SlipOK's API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "pnpm run clean && tsc",
+    "prepack": "pnpm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xhayper/node-slipok.git"
+  },
+  "keywords": [
+    "slipok",
+    "promptpay"
+  ],
+  "author": "xhayper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xhayper/node-slipok/issues"
+  },
+  "homepage": "https://github.com/xhayper/node-slipok#readme",
+  "dependencies": {
+    "undici": "^6.19.8"
+  },
+  "devDependencies": {
+    "@sapphire/ts-config": "^5.0.1",
+    "@types/node": "18",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.6.2"
+  },
+  "engines": {
+    "node": ">=18.17"
+  }
+}

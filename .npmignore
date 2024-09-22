@@ -1,0 +1,9 @@
+node_modules
+src
+
+dist/tsconfig.tsbuildinfo
+.prettierignore
+pnpm-lock.yaml
+tsconfig.json
+.gitignore
+*.tgz
